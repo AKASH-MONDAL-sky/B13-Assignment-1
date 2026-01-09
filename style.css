@@ -24,6 +24,8 @@
     padding: 12px 16px;
     border-radius: 5px;
     gap:10px;
+    width: 205px;
+    height: 42px;
 
 }
 
@@ -183,7 +185,7 @@
  /* Solution Section */
 
  .main-Solution{
-    padding: 130px 0;
+    padding: 130px 0 0 0;
     display: flex;
     justify-content: flex-start;
     gap: 70px;
@@ -225,6 +227,32 @@
   gap: 12px;
   padding: 7px;
 }
-.list li span{
-    
+
+/* More Section */
+
+.more-section{
+     text-align: center; 
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    padding: 80px 0;
+}
+
+.more-section h2{
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 16px;
+    color: #001931;
+}
+
+.more-section p{
+     font-size: 16px;
+     color: #627382;
+     padding-bottom: 24px;
+}
+
+.more-btn-padding{
+    margin-bottom: 16px;
 }
