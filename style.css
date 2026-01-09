@@ -36,6 +36,7 @@
 
 .header{
     background-color: #FFFFFF;
+
 }
 
 /* Navbar */
@@ -123,3 +124,60 @@
 
 }
 
+/* Card Section */
+.card-heading{
+    text-align: center;
+    padding: 60px;
+}
+
+.card-heading h2{
+    font-size: 50px;
+    font-weight: 700px;
+    margin-bottom: 12px;
+}
+.card-heading p{
+    font-size: 16px;
+    color: #627282;
+}
+
+.card-box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.card-icon{
+    width: 60px;
+    height: 60px;
+    padding: 14px;
+    background-color: #F95555;
+    border-radius: 50%;
+}
+
+.cards{
+    padding: 70px 24px ;
+    /* border: 1px solid palevioletred; */
+    max-width: 385px;
+    max-height: 350px;
+    box-shadow: 0 6px 50px 0 #6361615d;
+    border-radius: 5px;
+}
+.card-box .cards h3{
+    font-size: 25px;
+    line-height: 20px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #001931;
+    line-height: 1;
+}
+
+.card-box .cards p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #687b8c;
+    line-height: 20px;
+    width: 300px;
+    line-height: 1;
+}
