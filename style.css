@@ -180,4 +180,51 @@
     line-height: 1;
 }
 
- 
+ /* Solution Section */
+
+ .main-Solution{
+    padding: 130px 0;
+    display: flex;
+    justify-content: flex-start;
+    gap: 70px;
+ }
+
+ .knowledge{
+    width: 750px;
+    height: 750px;
+ }
+
+.solution-info{
+    padding: 100px 0;
+}
+
+.solution-info-P1{
+    font-size: 20px;
+    color: #30B868;
+    padding-bottom: 16px;
+}
+
+.solution-info-h{
+    font-weight: bold;
+    font-size: 52px;
+    color: #001931;
+    padding-bottom: 16px;
+}
+
+.solution-info-P2{
+    font-size: 16px;
+    color: #627382;
+    padding-bottom: 30px;
+}
+
+
+
+.list li{
+    display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 7px;
+}
+.list li span{
+    
+}
