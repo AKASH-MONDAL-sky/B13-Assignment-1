@@ -79,9 +79,6 @@
     padding: 115px 120px 120px 180px;
 }
 
-.hero-early-access{
-    border-radius: 100px;
-}
 .btn-access{
     padding: 8px 12px;
     border-radius: 700px;
@@ -142,8 +139,8 @@
 
 .card-box{
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-around;
+    gap: 30px;
     text-align: center;
 }
 
@@ -158,10 +155,11 @@
 .cards{
     padding: 70px 24px ;
     /* border: 1px solid palevioletred; */
-    max-width: 385px;
+    width: 400px;
     max-height: 350px;
-    box-shadow: 0 6px 50px 0 #6361615d;
+    box-shadow: 0 4px 50px 0 #6361615d;
     border-radius: 5px;
+    line-height: 1;
 }
 .card-box .cards h3{
     font-size: 25px;
@@ -181,3 +179,5 @@
     width: 300px;
     line-height: 1;
 }
+
+ 
