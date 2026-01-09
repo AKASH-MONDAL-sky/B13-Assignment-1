@@ -10,6 +10,8 @@
 }
 /* Share Style */
 
+
+
 .btn-t{
     background-color: #469165;
     color: #FFFFFF;
@@ -55,5 +57,69 @@
 .nav-mid a{
     text-decoration: none;
     color: #000000;
+}
+
+
+
+/* Hero Section */
+
+.hero-section{
+    background-image: url("./assets/hero-bg.png");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.main-hero{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding: 115px 120px 120px 180px;
+}
+
+.hero-early-access{
+    border-radius: 100px;
+}
+.btn-access{
+    padding: 8px 12px;
+    border-radius: 700px;
+    font-size: 16px;
+    color: #159e4e;
+}
+
+.hero-heading{
+    font-size: 50px;
+    color: #FFFFFF;
+    margin: 16px 295px;
+}
+.hero-heading span{
+  color: #159e4e;
+}
+
+.hero-paragraph{
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 1.6;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+
+.button{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 16px;
+}
+
+.hero-btn{
+    display: flex;
+    gap: 16px;
+}
+
+
+.btn-transparent-text button{
+    color: #FFFFFF;
+
 }
 
